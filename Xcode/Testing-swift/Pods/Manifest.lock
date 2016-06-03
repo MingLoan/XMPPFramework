@@ -1,10 +1,19 @@
 PODS:
-  - CocoaAsyncSocket (7.4.2)
-  - CocoaLumberjack (1.9.2):
-    - CocoaLumberjack/Extensions (= 1.9.2)
-  - CocoaLumberjack/Core (1.9.2)
-  - CocoaLumberjack/Extensions (1.9.2):
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
     - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
   - KissXML/Core (5.0.3)
   - KissXML/libxml_module (5.0.3):
     - KissXML/Core
@@ -50,14 +59,18 @@ PODS:
     - XMPPFramework/XEP-0280
     - XMPPFramework/XEP-0297
     - XMPPFramework/XEP-0308
+    - XMPPFramework/XEP-0313
     - XMPPFramework/XEP-0333
+    - XMPPFramework/XEP-0334
     - XMPPFramework/XEP-0335
     - XMPPFramework/XEP-0352
+    - XMPPFramework/XEP-0357
+    - XMPPFramework/XEP-0363
   - XMPPFramework/BandwidthMonitor (3.6.7):
     - XMPPFramework/Core
   - XMPPFramework/Core (3.6.7):
     - CocoaAsyncSocket (~> 7.4.1)
-    - CocoaLumberjack (~> 1.9)
+    - CocoaLumberjack (~> 2.0)
     - KissXML/libxml_module (~> 5.0.3)
   - XMPPFramework/CoreDataStorage (3.6.7):
     - XMPPFramework/Core
@@ -144,11 +157,20 @@ PODS:
     - XMPPFramework/XEP-0203
   - XMPPFramework/XEP-0308 (3.6.7):
     - XMPPFramework/Core
+  - XMPPFramework/XEP-0313 (3.6.7):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0059
   - XMPPFramework/XEP-0333 (3.6.7):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0334 (3.6.7):
     - XMPPFramework/Core
   - XMPPFramework/XEP-0335 (3.6.7):
     - XMPPFramework/Core
   - XMPPFramework/XEP-0352 (3.6.7):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0357 (3.6.7):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0363 (3.6.7):
     - XMPPFramework/Core
 
 DEPENDENCIES:
@@ -156,12 +178,14 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   XMPPFramework:
-    :path: ../../
+    :path: "../../"
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
-  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
   KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
-  XMPPFramework: b8f741bfd26268113a3f6b39b5c9dbd93a68944a
+  XMPPFramework: 231fe0cf84271a0bdf675254653e5747c6ae7f5a
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 52ffebebd2e0862da151d98c77de687f46c1fce7
+
+COCOAPODS: 1.0.0

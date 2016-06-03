@@ -8,16 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		638EFB0B1C5AFB2200498AB5 /* XMPPSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638EFB0A1C5AFB2200498AB5 /* XMPPSwift.swift */; };
-		883ABB5184CA8AE59B0605B1 /* Pods_XMPPSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BFC854113E7EF8CF0C1A1E /* Pods_XMPPSwift.framework */; };
+		77A267ADC94A8A05A594DD80 /* Pods_XMPPSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 953643D72072D0E6D9E7B4D8 /* Pods_XMPPSwift.framework */; };
+		9A4BCF471D01B12F001F8419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BCF461D01B12F001F8419 /* AppDelegate.swift */; };
+		9A4BCF491D01B12F001F8419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4BCF481D01B12F001F8419 /* ViewController.swift */; };
+		9A4BCF4C1D01B12F001F8419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BCF4A1D01B12F001F8419 /* Main.storyboard */; };
+		9A4BCF4E1D01B12F001F8419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BCF4D1D01B12F001F8419 /* Assets.xcassets */; };
+		9A4BCF511D01B12F001F8419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4BCF4F1D01B12F001F8419 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21C2EE57CA6C071B5A634392 /* Pods-XMPPSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPSwift/Pods-XMPPSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		3C29A3DDC5BBF23838C6923B /* Pods-XMPPSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPSwift/Pods-XMPPSwift.release.xcconfig"; sourceTree = "<group>"; };
 		638EFB071C5AFB2200498AB5 /* XMPPSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMPPSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		638EFB0A1C5AFB2200498AB5 /* XMPPSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMPPSwift.swift; sourceTree = "<group>"; };
 		638EFB0C1C5AFB2200498AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A35C1E507D15A33B91B319F3 /* Pods-XMPPSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPSwift/Pods-XMPPSwift.release.xcconfig"; sourceTree = "<group>"; };
-		C4BFC854113E7EF8CF0C1A1E /* Pods_XMPPSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		953643D72072D0E6D9E7B4D8 /* Pods_XMPPSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMPPSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4BCF3B1D01AC73001F8419 /* XMPPFramework.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XMPPFramework.podspec; sourceTree = "<group>"; };
+		9A4BCF441D01B12F001F8419 /* XMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4BCF461D01B12F001F8419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A4BCF481D01B12F001F8419 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A4BCF4B1D01B12F001F8419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A4BCF4D1D01B12F001F8419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A4BCF501D01B12F001F8419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A4BCF521D01B12F001F8419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C492A71F749FA0576C123F /* Pods-XMPPSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMPPSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMPPSwift/Pods-XMPPSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,26 +38,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883ABB5184CA8AE59B0605B1 /* Pods_XMPPSwift.framework in Frameworks */,
+				77A267ADC94A8A05A594DD80 /* Pods_XMPPSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4BCF411D01B12F001F8419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020F0594116FA15E82E27B86 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				21C2EE57CA6C071B5A634392 /* Pods-XMPPSwift.debug.xcconfig */,
-				A35C1E507D15A33B91B319F3 /* Pods-XMPPSwift.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		638EFB081C5AFB2200498AB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				638EFB071C5AFB2200498AB5 /* XMPPSwift.xctest */,
+				9A4BCF441D01B12F001F8419 /* XMPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,19 +73,43 @@
 		63D95F771C5AFADC00078610 = {
 			isa = PBXGroup;
 			children = (
+				9A4BCF3B1D01AC73001F8419 /* XMPPFramework.podspec */,
 				638EFB091C5AFB2200498AB5 /* XMPPSwift */,
+				9A4BCF451D01B12F001F8419 /* XMPP */,
 				638EFB081C5AFB2200498AB5 /* Products */,
-				020F0594116FA15E82E27B86 /* Pods */,
-				A64467F48F0BB77B7DEBA2A1 /* Frameworks */,
+				640F0FB063AB775697DDE640 /* Pods */,
+				870FFE8B69EEC51FB3CCE6DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		A64467F48F0BB77B7DEBA2A1 /* Frameworks */ = {
+		640F0FB063AB775697DDE640 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4BFC854113E7EF8CF0C1A1E /* Pods_XMPPSwift.framework */,
+				A1C492A71F749FA0576C123F /* Pods-XMPPSwift.debug.xcconfig */,
+				3C29A3DDC5BBF23838C6923B /* Pods-XMPPSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		870FFE8B69EEC51FB3CCE6DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				953643D72072D0E6D9E7B4D8 /* Pods_XMPPSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A4BCF451D01B12F001F8419 /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				9A4BCF461D01B12F001F8419 /* AppDelegate.swift */,
+				9A4BCF481D01B12F001F8419 /* ViewController.swift */,
+				9A4BCF4A1D01B12F001F8419 /* Main.storyboard */,
+				9A4BCF4D1D01B12F001F8419 /* Assets.xcassets */,
+				9A4BCF4F1D01B12F001F8419 /* LaunchScreen.storyboard */,
+				9A4BCF521D01B12F001F8419 /* Info.plist */,
+			);
+			path = XMPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,12 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 638EFB0F1C5AFB2200498AB5 /* Build configuration list for PBXNativeTarget "XMPPSwift" */;
 			buildPhases = (
-				7FE5BB975D248B84D72ADE40 /* Check Pods Manifest.lock */,
+				61EC3D773CCD07E962902F09 /* 📦 Check Pods Manifest.lock */,
 				638EFB031C5AFB2200498AB5 /* Sources */,
 				638EFB041C5AFB2200498AB5 /* Frameworks */,
 				638EFB051C5AFB2200498AB5 /* Resources */,
-				67EA0B38F29111FB652C1461 /* Embed Pods Frameworks */,
-				A00BF0CACEFD43F600A833A8 /* Copy Pods Resources */,
+				2113824DB30860448EE18AC2 /* 📦 Embed Pods Frameworks */,
+				B946FC500B24C23BE71C4711 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,17 +135,37 @@
 			productReference = 638EFB071C5AFB2200498AB5 /* XMPPSwift.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		9A4BCF431D01B12F001F8419 /* XMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4BCF551D01B12F001F8419 /* Build configuration list for PBXNativeTarget "XMPP" */;
+			buildPhases = (
+				9A4BCF401D01B12F001F8419 /* Sources */,
+				9A4BCF411D01B12F001F8419 /* Frameworks */,
+				9A4BCF421D01B12F001F8419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMPP;
+			productName = XMPP;
+			productReference = 9A4BCF441D01B12F001F8419 /* XMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		63D95F781C5AFADC00078610 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				TargetAttributes = {
 					638EFB061C5AFB2200498AB5 = {
 						CreatedOnToolsVersion = 7.2;
+					};
+					9A4BCF431D01B12F001F8419 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -119,6 +175,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 63D95F771C5AFADC00078610;
 			productRefGroup = 638EFB081C5AFB2200498AB5 /* Products */;
@@ -126,6 +183,7 @@
 			projectRoot = "";
 			targets = (
 				638EFB061C5AFB2200498AB5 /* XMPPSwift */,
+				9A4BCF431D01B12F001F8419 /* XMPP */,
 			);
 		};
 /* End PBXProject section */
@@ -138,17 +196,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A4BCF421D01B12F001F8419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4BCF511D01B12F001F8419 /* LaunchScreen.storyboard in Resources */,
+				9A4BCF4E1D01B12F001F8419 /* Assets.xcassets in Resources */,
+				9A4BCF4C1D01B12F001F8419 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67EA0B38F29111FB652C1461 /* Embed Pods Frameworks */ = {
+		2113824DB30860448EE18AC2 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,14 +224,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMPPSwift/Pods-XMPPSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7FE5BB975D248B84D72ADE40 /* Check Pods Manifest.lock */ = {
+		61EC3D773CCD07E962902F09 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,14 +239,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A00BF0CACEFD43F600A833A8 /* Copy Pods Resources */ = {
+		B946FC500B24C23BE71C4711 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,12 +265,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A4BCF401D01B12F001F8419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4BCF491D01B12F001F8419 /* ViewController.swift in Sources */,
+				9A4BCF471D01B12F001F8419 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A4BCF4A1D01B12F001F8419 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4BCF4B1D01B12F001F8419 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A4BCF4F1D01B12F001F8419 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A4BCF501D01B12F001F8419 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		638EFB0D1C5AFB2200498AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C2EE57CA6C071B5A634392 /* Pods-XMPPSwift.debug.xcconfig */;
+			baseConfigurationReference = A1C492A71F749FA0576C123F /* Pods-XMPPSwift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -251,7 +347,7 @@
 		};
 		638EFB0E1C5AFB2200498AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A35C1E507D15A33B91B319F3 /* Pods-XMPPSwift.release.xcconfig */;
+			baseConfigurationReference = 3C29A3DDC5BBF23838C6923B /* Pods-XMPPSwift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -303,6 +399,99 @@
 			};
 			name = Release;
 		};
+		9A4BCF531D01B12F001F8419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaatz.chat.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A4BCF541D01B12F001F8419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = XMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaatz.chat.XMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +512,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		9A4BCF551D01B12F001F8419 /* Build configuration list for PBXNativeTarget "XMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A4BCF531D01B12F001F8419 /* Debug */,
+				9A4BCF541D01B12F001F8419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

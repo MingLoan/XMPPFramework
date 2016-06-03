@@ -58,8 +58,8 @@
  * Xcode projects created with Xcode 4 automatically define DEBUG via the project's preprocessor macros.
  * If you created your project with a previous version of Xcode, you may need to add the DEBUG macro manually.
 **/
-
-#import <CocoaLumberjack/CocoaLumberjack.h>
+@import CocoaLumberjack;
+//#import <CocoaLumberjack/CocoaLumberjack.h>
 
 // Global flag to enable/disable logging throughout the entire xmpp framework.
 

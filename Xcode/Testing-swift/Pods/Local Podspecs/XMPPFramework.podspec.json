@@ -59,7 +59,7 @@
       },
       "dependencies": {
         "CocoaLumberjack": [
-          "~>1.9"
+          "~>2.0"
         ],
         "CocoaAsyncSocket": [
           "~>7.4.1"
@@ -526,6 +526,16 @@
       "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_POD"
     },
     {
+      "name": "XEP-0334",
+      "source_files": "Extensions/XEP-0334/**/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ]
+      },
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_POD"
+    },
+    {
       "name": "XEP-0335",
       "source_files": "Extensions/XEP-0335/**/*.{h,m}",
       "dependencies": {
@@ -538,6 +548,39 @@
     {
       "name": "XEP-0352",
       "source_files": "Extensions/XEP-0352/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ]
+      },
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_POD"
+    },
+    {
+      "name": "XEP-0357",
+      "source_files": "Extensions/XEP-0357/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ]
+      },
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_POD"
+    },
+    {
+      "name": "XEP-0313",
+      "source_files": "Extensions/XEP-0313/*.{h,m}",
+      "dependencies": {
+        "XMPPFramework/Core": [
+
+        ],
+        "XMPPFramework/XEP-0059": [
+
+        ]
+      },
+      "prefix_header_contents": "#define HAVE_XMPP_SUBSPEC_POD"
+    },
+    {
+      "name": "XEP-0363",
+      "source_files": "Extensions/XEP-0363/*.{h,m}",
       "dependencies": {
         "XMPPFramework/Core": [
 
@@ -668,10 +711,22 @@
         "XMPPFramework/XEP-0333": [
 
         ],
+        "XMPPFramework/XEP-0334": [
+
+        ],
         "XMPPFramework/XEP-0335": [
 
         ],
         "XMPPFramework/XEP-0352": [
+
+        ],
+        "XMPPFramework/XEP-0357": [
+
+        ],
+        "XMPPFramework/XEP-0363": [
+
+        ],
+        "XMPPFramework/XEP-0313": [
 
         ]
       },

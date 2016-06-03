@@ -112,9 +112,9 @@
 #import "XMPPCapsCoreDataStorageObject.h"
 #import "XMPPCapsResourceCoreDataStorageObject.h"
 #import "XMPPCapabilities.h"
+#import "XMPPMessageArchivingCoreDataStorage.h"
 #import "XMPPMessageArchiving_Contact_CoreDataObject.h"
 #import "XMPPMessageArchiving_Message_CoreDataObject.h"
-#import "XMPPMessageArchivingCoreDataStorage.h"
 #import "XMPPMessageArchiving.h"
 #import "XMPPURI.h"
 #import "XMPPvCardAvatarModule.h"
@@ -141,9 +141,14 @@
 #import "NSXMLElement+XEP_0297.h"
 #import "NSXMLElement+XEP_0203.h"
 #import "XMPPMessage+XEP_0308.h"
+#import "XMPPMessageArchiveManagement.h"
 #import "XMPPMessage+XEP_0333.h"
+#import "XMPPMessage+XEP_0334.h"
 #import "NSXMLElement+XEP_0335.h"
 #import "NSXMLElement+XEP_0352.h"
+#import "XMPPIQ+XEP_0357.h"
+#import "XMPPHTTPFileUpload.h"
+#import "XMPPSlot.h"
 
 FOUNDATION_EXPORT double XMPPFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMPPFrameworkVersionString[];
