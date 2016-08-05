@@ -210,6 +210,7 @@ enum XMPPStreamConfig
 		
 		// Initialize socket
 		asyncSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:xmppQueue];
+        asyncSocket.IPv4PreferredOverIPv6 = NO;
 	}
 	return self;
 }
@@ -1256,7 +1257,8 @@ enum XMPPStreamConfig
 		
 		// Initailize socket
 		asyncSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:xmppQueue];
-		
+		asyncSocket.IPv4PreferredOverIPv6 = NO;
+        
 		NSError *connectErr = nil;
 		result = [asyncSocket connectToAddress:remoteAddr error:&connectErr];
 		
